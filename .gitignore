@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE / tool settings
+.claude/
+
+# Empty placeholder (git doesn't track empty dirs)
+saved_models/
