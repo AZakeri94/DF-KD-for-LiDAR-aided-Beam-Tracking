@@ -2,6 +2,8 @@
 
 A Knowledge Distillation (KD) framework for 60 GHz mmWave beam selection using LiDAR sequences. The framework includes a Data-Free KD (DF-KD) variant in which a generator network synthesizes training samples, removing the need to access the original dataset during student training.
 
+Full paper: https://arxiv.org/abs/2509.19092 
+
 ## Problem Statement
 
 Given a sequence of 8 LiDAR frames (216 features each), predict the best beam index among 64 candidates for the next 3 time steps. The goal is to compress a larger teacher model into a lightweight student model suitable for deployment.
